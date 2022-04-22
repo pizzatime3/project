@@ -16,7 +16,7 @@ public class UserDto {
 		this.회원번호 = 회원번호;
 		this.회원아이디 = 회원아이디;
 		this.회원비밀번호 = 회원비밀번호;
-		this.회원이름 = 회원이름;
+		this.회원이름 =  회원이름;
 		this.회원이메일 = 회원이메일;
 	}
 

@@ -19,7 +19,7 @@ public class UserDao {
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/javafx?serverTimezone=UTC","root","1234");
 			System.out.println("db연동성공");
 		}catch(Exception e) {
-			System.out.println("DB연동오류 사유 : "+ e);
+			System.out.println("DB연동오류  : "+ e);
 		}
 	}
 }
